@@ -12,7 +12,7 @@ jobs:
     environment: testing
     runs-on: ubuntu-latest
     container:
-      image: node:18 # you can use any image from Docker Hub or your own image from a registry
+      image: node:16 # you can use any image from Docker Hub or your own image from a registry
     env:
       MONGODB_CONNECTION_PROTOCOL: mongodb
       MONGODB_CLUSTER_ADDRESS: mongo
